@@ -1,0 +1,25 @@
+{
+    "name": "metal-ipsum-api",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "cakephp/cakephp",
+                "version": "2.4.1",
+                "bin": ["lib/Cake/Console/cake"],
+                "dist": {
+                    "url": "https://github.com/cakephp/cakephp/archive/2.4.1.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "cakephp/cakephp": "2.4.1",
+        "phpunit/phpunit": "3.7.x"
+    },
+    "config": {
+        "vendor-dir": "Vendor/"
+    }
+}
