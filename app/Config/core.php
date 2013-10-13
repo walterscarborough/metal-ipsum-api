@@ -11,14 +11,6 @@
  * @since         CakePHP(tm) v 0.2.9
  */
 
-// Load composer autoload.
-require APP . '/Vendor/autoload.php';
-
-// Remove and re-prepend CakePHP's autoloader as composer thinks it is the most important.
-// See https://github.com/composer/composer/commit/c80cb76b9b5082ecc3e5b53b1050f76bb27b127b
-spl_autoload_unregister(array('App', 'load'));
-spl_autoload_register(array('App', 'load'), true, true);
-
 /**
  * CakePHP Debug Level:
  *
@@ -222,11 +214,11 @@ spl_autoload_register(array('App', 'load'), true, true);
 
 /**
  * A random string used in security hashing methods.
- */	Configure::write('Security.salt', '8ca4f9d91500606cb9d35fac2d7489c531c271f9');
+ */	Configure::write('Security.salt', 'cd0ce954a5fd75d0e2cc21964715b2fcf9093135');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
- */	Configure::write('Security.cipherSeed', '643036366665376237383239616166');
+ */	Configure::write('Security.cipherSeed', '626135346430303634363931636661');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).

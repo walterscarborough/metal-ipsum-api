@@ -26,7 +26,7 @@ if (function_exists('ini_set')) {
 
 	// the following line differs from its sibling
 	// /app/Console/cake.php
-	ini_set('include_path', $root . PATH_SEPARATOR .  $ds . 'Users' . $ds . 'walter' . $ds . 'dev' . $ds . 'metal-ipsum-api' . $ds . 'app' . $ds . 'Vendor' . $ds . 'cakephp' . $ds . 'cakephp' . $ds . 'lib' . PATH_SEPARATOR . ini_get('include_path'));
+	ini_set('include_path', $root . PATH_SEPARATOR .  $ds . 'Users' . $ds . 'walter' . $ds . 'Dev' . $ds . 'metal-ipsum-api' . $ds . 'app' . $ds . 'Vendor' . $ds . 'cakephp' . $ds . 'cakephp' . $ds . 'lib' . PATH_SEPARATOR . ini_get('include_path'));
 }
 
 if (!include ($dispatcher)) {
