@@ -19,7 +19,7 @@ Project dependencies are as follows:
 
 ### Setup
 ```  
-git clone [https://github.com/walterscarborough/metal-ipsum-api.git](https://github.com/walterscarborough/metal-ipsum-api.git)
+git clone https://github.com/walterscarborough/metal-ipsum-api.git
 
 cd metal-ipsum-api/app
 
